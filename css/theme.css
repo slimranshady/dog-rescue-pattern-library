@@ -6,8 +6,8 @@
   --color-neutral-beige: #e2e2e2;
   --color-whatever: blue;
 
-  --font-primary: "Nunito Sans", "Trebuchet MS", Arial, sans-serif;
-  --font-secondary: "Source Code Pro", Menlo, Consolas, Monospace;
+  --font-primary: "Nunito Sans", "Trebuchet MS", arial, sans-serif;
+  --font-secondary: "Source Code Pro", menlo, consolas, monospace;
 }
 
 html {
