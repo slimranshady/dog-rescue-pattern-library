@@ -5,10 +5,46 @@
   --color-accent: #ff0072;
   --color-neutral-beige: #e2e2e2;
 
-  --font-primary: "Nunito Sans", sans-serif;
-  --font-secondary: "Source Code Pro", menlo, consolas, monospace;
+  --font-primary: "Nunito", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--color-secondary);
+  font-weight: 200;
+}
+
+h2 {
+  color: var(--color-secondary);
+  font-weight: 200;
+}
+
+h3 {
+  color: var(--color-primary);
+  font-weight: 200;
+}
+
+h4 {
+  color: var(--color-primary-light);
+}
+
+h5 {
+  color: var(--color-neutral-beige);
+}
+
+h6 {
+  color: var(--color-neutral-beige);
+}
+
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+blockquote {
+  color: var(--color-primary);
+  font-size: 3rem;
 }
