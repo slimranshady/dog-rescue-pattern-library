@@ -20,6 +20,7 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
           </ul>
@@ -371,6 +372,39 @@
 
 </section>
 
+        <section class="pattern" id="icons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Icons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="icons-icons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/icons/1-icons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;i class="icon i-192"&gt;
+  &lt;svg>&lt;use xlink:href="images/icons.svg#ID-FROM-LIST"/>&lt;/svg>
+&lt;/i>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons">
   <div class="push">
     <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
@@ -421,6 +455,10 @@
         </nav>
     </div>
 
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The cards provide a way to highlight important information and to separate them from the basic body copy.</p>
+</div>
+      </div>
   </div>
 
   
@@ -430,6 +468,10 @@
           <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
             <h3 class="pattern-name tera push-1-8">Basic card</h3>
           </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The basic card is only for basic and important information. It has an image, a button, and a short description.</p>
+</div>
+            </div>
         </div>
 
       <div class="pattern-examples">
@@ -439,8 +481,18 @@
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
               <code><pre>&lt;div class="card island-1-2"&gt;
-  &lt;h2 class="push-1-4">This is a card&lt;/h2>
-  &lt;p class="push-0">This is a paragraph. This is a paragraph. This is a paragraph.&lt;/p>
+  &lt;div class="padding">
+    &lt;i class="icon i-128 push-1-2 heart">
+        &lt;svg>&lt;use xlink:href="../../images/icons.svg#heart"/>&lt;/svg>
+      &lt;/i>
+    &lt;img class="img-flex" src="../../images/dog.jpg" alt="">
+    &lt;h2>Jeremy&lt;/h2>
+    &lt;h6>Type of Dog&lt;/h6>
+    &lt;p>This is a short description of Jeremy. He likes long walks on the beach.&lt;/p>
+    &lt;div class="align-right">
+      &lt;a class="btn">Learn more&lt;/a>
+    &lt;/div>
+  &lt;/div>
 &lt;/div>
 </pre></code>
             </div>
@@ -452,6 +504,10 @@
           <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
             <h3 class="pattern-name tera push-1-8">Icon card</h3>
           </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The icon cards are used for external links that may be useful to the user.</p>
+</div>
+            </div>
         </div>
 
       <div class="pattern-examples">
@@ -460,15 +516,11 @@
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;div class="card island-1-2"&gt;
+              <code><pre>&lt;div class="card island-1-2 text-center"&gt;
   &lt;i class="icon i-128 push-1-2">
-      &lt;svg>&lt;use xlink:href="../../images/card-icons.svg#heart"/>&lt;/svg>
+      &lt;svg>&lt;use xlink:href="../../images/icons.svg#heart"/>&lt;/svg>
     &lt;/i>
-  &lt;img class="img-flex" src="../../images/dog.jpg" alt="">
-  &lt;h2>Jeremy&lt;/h2>
-  &lt;h6>Type of Dog&lt;/h6>
-  &lt;p>This is a short description of Jeremy. He likes long walks on the beach.&lt;/p>
-  &lt;a class="btn">Learn more&lt;/a>
+  &lt;p class="push-0">This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph.&lt;/p>
 &lt;/div>
 </pre></code>
             </div>
