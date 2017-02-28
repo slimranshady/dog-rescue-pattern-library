@@ -1,0 +1,36 @@
+i {
+  width: 10px;
+  color: var(--color-secondary);
+}
+
+img {
+  max-width: 80%;
+}
+
+.card {
+  border: 1px solid #999;
+  margin: 2rem;
+  position: relative;
+}
+
+h2 {
+  margin: 0;
+}
+
+.align-right {
+  text-align: right;
+  padding:
+}
+
+.heart {
+  position: absolute;
+  width: 10%;
+  right: 0;
+  top: -1rem;
+  margin-right: 2.5rem;
+  margin-top: 0;
+}
+
+.padding {
+  padding: 1rem;
+}

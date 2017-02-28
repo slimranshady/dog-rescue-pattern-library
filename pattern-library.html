@@ -21,6 +21,7 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
           </ul>
         </nav>
       </div>
@@ -378,9 +379,11 @@
 
       <div class="pattern-desc milli island">
         <div class="max-length"><p>The primary buttons use the accent colour so that they draw the user&#39;s attention. They stick out of the blue background.</p>
-<p>-The regular buttons are for cards, login, banners, and any simple primary actions.
--The light buttons are for secondary links that aren&#39;t as important as the primary buttons.
--The ghost buttons are for the small, least important tasks.</p>
+<ul>
+<li>The regular buttons are for cards, login, banners, and any simple primary actions.</li>
+<li>The light buttons are for secondary links that aren&#39;t as important as the primary buttons.</li>
+<li>The ghost buttons are for the small, least important tasks.</li>
+</ul>
 </div>
       </div>
   </div>
@@ -398,6 +401,75 @@
               <code><pre>&lt;a class="btn" href="#"&gt;Standard Button&lt;/a>
 &lt;a class="btn btn-light" href="#">Light Button&lt;/a>
 &lt;a class="btn btn-ghost" href="#">Ghost Button&lt;/a>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="cards">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Cards</h2>
+        <nav class="pattern-nav milli">
+          <ol class="list-group-inline pad-t-1-4 push-0">
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-basic-card">Basic card</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-icon-card">Icon card</a></li>
+          </ol>
+        </nav>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="cards-basic-card">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Basic card</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/basic-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="card island-1-2"&gt;
+  &lt;h2 class="push-1-4">This is a card&lt;/h2>
+  &lt;p class="push-0">This is a paragraph. This is a paragraph. This is a paragraph.&lt;/p>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="cards-icon-card">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Icon card</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/icon-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="card island-1-2"&gt;
+  &lt;i class="icon i-128 push-1-2">
+      &lt;svg>&lt;use xlink:href="../../images/card-icons.svg#heart"/>&lt;/svg>
+    &lt;/i>
+  &lt;img class="img-flex" src="../../images/dog.jpg" alt="">
+  &lt;h2>Jeremy&lt;/h2>
+  &lt;h6>Type of Dog&lt;/h6>
+  &lt;p>This is a short description of Jeremy. He likes long walks on the beach.&lt;/p>
+  &lt;a class="btn">Learn more&lt;/a>
+&lt;/div>
 </pre></code>
             </div>
           </div>
