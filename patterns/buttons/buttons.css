@@ -2,13 +2,14 @@
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
   border-radius: 2rem;
+  padding: .5rem;
 
   color: #fff;
 }
 
 .btn:hover {
   background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  border-color: #fff;
   border-radius: 2rem;
 
   color: #fff;

@@ -1,0 +1,44 @@
+.nav {
+  padding: 1rem;
+
+  background-color: var(--color-primary);
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5rem .75rem;
+  color: #fff;
+
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: var(--color-secondary);
+}
+
+.logo {
+  max-width: 3rem;
+  display: inline-block;
+}
+
+.banner-content {
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  width: 100%;
+  bottom: 20%;
+}
+
+.banner {
+  position: relative;
+}
+
+span {
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.banner-title {
+  font-size: 3rem;
+  color: var(--color-primary);
+}
